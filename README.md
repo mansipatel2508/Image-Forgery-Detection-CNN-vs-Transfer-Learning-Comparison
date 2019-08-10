@@ -29,7 +29,7 @@ Libraries Exposure
 * Dataset has 2 folders containing 900 fake images and 1050 pristine images
 * Used the train dataset which arounf 2 GB and splited train-test from that (Processor Contraint)
 * Online:  http://ifc.recod.ic.unicamp.br/fc.website/index.py?sec=0
-#Understanding the data
+# Understanding the data
 
 * Pristine Images : 1050
 
@@ -41,19 +41,24 @@ Libraries Exposure
 ## Mask for the fake image
 * Indentify where exactly the image is forgerized/edited
 * Seperated the masks from the fake images
+![](https://github.com/mansipatel2508/Image-Forgery-Detection-CNN-vs-Transfer-Learning-Comparison/blob/master/Images/Maskex.png)
 ## Plotting the Depth of the Images
 * The images with various channel/depth
 * Need to convert all the images to the one majority image channel or remove those.
+![](https://github.com/mansipatel2508/Image-Forgery-Detection-CNN-vs-Transfer-Learning-Comparison/blob/master/Images/Visual.png)
+
 ## Shape conflict
 * Fake and mask of the fake images were in different shape 
 * Reshape the mask as fake
+![](https://github.com/mansipatel2508/Image-Forgery-Detection-CNN-vs-Transfer-Learning-Comparison/blob/master/Images/shapecon.png)
+
 ## Final Data
 * Fake Images : 450
 > * Converted to 3 channel depth
-*Pristine Images : 1025
+* Pristine Images : 1025
 >* Removed 1 & 4 channel depth
 * Masks : 450
->*Converted to 1 channel depth (grayscale)
+>* Converted to 1 channel depth (grayscale)
 # Data Sampling
 * Fake images : 450
 * Pristine images : 450
@@ -61,7 +66,20 @@ Libraries Exposure
 # Train -Test Split
 * Train - Test : 70% - 30%
 * Set ‘Stratify’ parameter to labels
+# Model Evaluation
+## CNN
+![](https://github.com/mansipatel2508/Image-Forgery-Detection-CNN-vs-Transfer-Learning-Comparison/blob/master/Images/CNN.png)
+ ![](https://github.com/mansipatel2508/Image-Forgery-Detection-CNN-vs-Transfer-Learning-Comparison/blob/master/Images/CNN1.png)
+
+## Transfer Learning
+![](https://github.com/mansipatel2508/Image-Forgery-Detection-CNN-vs-Transfer-Learning-Comparison/blob/master/Images/T.png)
+![](https://github.com/mansipatel2508/Image-Forgery-Detection-CNN-vs-Transfer-Learning-Comparison/blob/master/Images/T1.png)
+
 # Model Comparison
+![](https://github.com/mansipatel2508/Image-Forgery-Detection-CNN-vs-Transfer-Learning-Comparison/blob/master/Images/Comp.png)
+![](https://github.com/mansipatel2508/Image-Forgery-Detection-CNN-vs-Transfer-Learning-Comparison/blob/master/Images/Comp.png)
+
+
 # Feature Extraction for Performance boost
 
 * Sampled the fake image by using it’s mask values
@@ -76,8 +94,24 @@ Libraries Exposure
 * 50,000 pristine samples
 
 A fake sample example is as follows
+![](https://github.com/mansipatel2508/Image-Forgery-Detection-CNN-vs-Transfer-Learning-Comparison/blob/master/Images/f1.png)
+![](https://github.com/mansipatel2508/Image-Forgery-Detection-CNN-vs-Transfer-Learning-Comparison/blob/master/Images/f2.png)
+
 # Model Evaluation
+## CNN
+![](https://github.com/mansipatel2508/Image-Forgery-Detection-CNN-vs-Transfer-Learning-Comparison/blob/master/Images/CNN2.png)
+![](https://github.com/mansipatel2508/Image-Forgery-Detection-CNN-vs-Transfer-Learning-Comparison/blob/master/Images/CNN3.png)
+
+## Transfer Learning
+![](https://github.com/mansipatel2508/Image-Forgery-Detection-CNN-vs-Transfer-Learning-Comparison/blob/master/Images/T2.png)
+![](https://github.com/mansipatel2508/Image-Forgery-Detection-CNN-vs-Transfer-Learning-Comparison/blob/master/Images/T3.png)
+
 # Model Comparison
+## F1 score comparison
+![](https://github.com/mansipatel2508/Image-Forgery-Detection-CNN-vs-Transfer-Learning-Comparison/blob/master/Images/Comp2.png)
+## Feature Extraction vs w/ Feature Extraction
+![](https://github.com/mansipatel2508/Image-Forgery-Detection-CNN-vs-Transfer-Learning-Comparison/blob/master/Images/Comp3.png)
+
 
 Mini Project5
 
