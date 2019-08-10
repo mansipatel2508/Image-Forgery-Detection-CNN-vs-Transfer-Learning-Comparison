@@ -115,7 +115,7 @@ A fake sample example is as follows
 ![](https://github.com/mansipatel2508/Image-Forgery-Detection-CNN-vs-Transfer-Learning-Comparison/blob/master/Images/Comp3.png)
 
 
-Mini Project5
+Mini Project 5
 
 Mansi Patel
 
