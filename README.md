@@ -76,8 +76,10 @@ Libraries Exposure
 ![](https://github.com/mansipatel2508/Image-Forgery-Detection-CNN-vs-Transfer-Learning-Comparison/blob/master/Images/T1.png)
 
 # Model Comparison
+## F1 score comparison
 ![](https://github.com/mansipatel2508/Image-Forgery-Detection-CNN-vs-Transfer-Learning-Comparison/blob/master/Images/Comp.png)
-![](https://github.com/mansipatel2508/Image-Forgery-Detection-CNN-vs-Transfer-Learning-Comparison/blob/master/Images/Comp.png)
+## F1 score comparison for each class
+![](https://github.com/mansipatel2508/Image-Forgery-Detection-CNN-vs-Transfer-Learning-Comparison/blob/master/Images/Comp1.png)
 
 
 # Feature Extraction for Performance boost
